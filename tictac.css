@@ -1,0 +1,36 @@
+table, tr, td {
+  border: 2px solid black;
+  text-align: center;
+  font-size: 30px;
+  margin-left: 460px;
+}
+
+td{
+    height:80px;
+    width:80px;
+}
+input{
+    margin-left: 570px;
+}
+h1{
+    margin-left: 490px;
+    animation:blinkingText .5s infinite;
+}
+@keyframes blinkingText{
+    
+    70% {   color: turquoise; }
+    20% {   color: green; }
+    10% {   color: navy;  }
+}
+
+h3{
+    margin-left: 540px;
+    color: crimson;
+}
+
+#print{
+    margin-left: 590px;
+    font-size: 25px;
+
+}
+
